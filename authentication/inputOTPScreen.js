@@ -77,6 +77,7 @@ const InputOTPScreen = ({navigation}) => {
                 value={internalVal}
                 maxLength={lengthInput}
                 returnKeyType="done"
+                focusable={true}
                 keyboardType="numeric"
                 />
                 <View style={styles.containerInput}>
